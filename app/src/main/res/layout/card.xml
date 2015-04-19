@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="60dp"
+               android:text="@string/champNom"
+               android:layout_height="wrap_content" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:id="@+id/TextNom"
+               android:layout_height="wrap_content" />
+           </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="60dp"
+                android:text="@string/champNumTel"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/TextNumTel"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+     </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
